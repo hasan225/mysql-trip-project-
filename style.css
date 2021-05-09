@@ -1,0 +1,75 @@
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.5rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea#desc {
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    margin: 27px 0px 15px 0px;
+}
+.container{
+    background: #fb540075;
+    color: white;
+    padding: 25px 27px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.container:hover{
+    background: #fb540000;
+    color: white;
+    padding: 25px 27px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+body{background-image: url(img/pexels-arthouse-studio-4338020.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+
+    button.btn.btn-primary {
+        padding: 6px 20px;
+        letter-spacing: 2px;
+        background: blueviolet;
+        border-radius: 10px;
+        transition: .4s;
+    }
+    
+    button.btn.btn-primary:nth-child(2) {
+        background: cadetblue;
+        margin-left: 20px;
+        padding: 6px 25px;
+        transition: .4s;
+    }
+
+    button.btn.btn-primary:hover{
+        padding: 6px 20px;
+        letter-spacing: 2px;
+        background: rgba(137, 43, 226, 0);
+        border-radius: 10px;
+        transition: .4s;
+    }
+    
+    button.btn.btn-primary:nth-child(2):hover{
+        background: rgba(95, 158, 160, 0);
+        margin-left: 20px;
+        padding: 6px 25px;
+        transition: .4s;
+    }
